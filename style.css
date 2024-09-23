@@ -1,0 +1,100 @@
+* {
+    margin-top: 5px;
+    padding: 0px;
+    box-sizing: border-box; /*causes padding and border to be included insode the box*/
+  }
+  
+  body {
+    background-color: rgb(2, 29, 4);
+    text-align: center;
+  }
+  
+  .mainbox {
+    width: 1040px;
+    height: 1540px;
+    background-color: white;
+    padding: 15px;
+    border: 5px solid gray;
+    margin-left: 170px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  h1 {
+    color: whitesmoke;
+    text-align: center;
+  }
+  .minigrey {
+    color: slategray;
+    text-align: center;
+  }
+
+  .infobox {
+    width: 600px;
+    height: 150px;
+    margin-bottom: 12px;
+    margin-left: 200px;
+    
+  }
+  .infobox2 {
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+  .infobox3 {
+    width: 600px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 200px;
+  }
+  a:link {
+    text-decoration: none;
+    color: slategrey;
+    text-align: center;
+  }
+  a:hover {
+    text-decoration: underline;
+    color:green;
+    text-align: center;
+  }
+  a:visited{
+    text-decoration: none;
+    color:rgb(114, 177, 114);
+    text-align: center;
+  }
+
+  nav {
+    margin: center;
+    text-align: center;
+  }
+  .form{
+    text-align: center;
+  }
+
+  footer{
+    margin-top: 15px;
+    margin-left: 540px;
+    background: white;
+    border-color: grey;
+    margin-bottom: 50px;
+    max-width: 300px;
+  }
+  
+  blockquote{
+    color: rgb(6, 84, 36);
+    font-size: 20px;
+  }
+
+  div.container {
+    text-align: center;
+  }
+  
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* https://www.w3schools.com/howto/howto_css_center-list.asp */
+
+  
